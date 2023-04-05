@@ -20,7 +20,7 @@ Serial.print("Temperatura = ");
 Serial.print(temp); //mostra valor na tela
 Serial.println(" *C");
    
-if(temp > 25){
+if(temp > 32){
 digitalWrite(buzzer, HIGH); //aciona o buzzer
 digitalWrite(LedRed, HIGH);  //aciona o led
 }
