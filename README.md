@@ -15,9 +15,9 @@
 
 # 2- Execução parte lógica do sistema
 
-           "Tensão de testes"
+         "Temperatura de testes"
     SE (A temperatura exceda 23°) { 
-        O dispositivo envia um sinal imediato ao usuário ativando o led vermelho, o buzzer ativo por 10 segundos e a ventoinha para um breve resfriamento informando um problema que precisa ser resolvido           além disso envia os dados da análise ao nosso dashboard através do server MQTT. Que futuramente será um app disponivel para o usuário também para uma checagem mais rápida. 
+        O dispositivo envia um sinal imediato ao usuário ativando o led vermelho, o buzzer e a ventoinha para um breve resfriamento informando um problema que precisa ser resolvido           além disso envia os dados da análise ao nosso dashboard através do server MQTT. Que futuramente será um app disponivel para o usuário também para uma checagem mais rápida. 
     }       
                     "Tensão de testes"
     SE (A tensão da bateria estiver abaixo de 0.4v) {
